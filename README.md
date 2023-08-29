@@ -18,7 +18,7 @@ E. MOND is a theory that eliminates the observed missing baryonic mass in galaxy
 **Answer**: D
 
 ## Relevant Technologies:
-Python, PyTorch, Hugging face, Pandas, Numpy, Faiss
+Python, PyTorch, Hugging Face, Pandas, Numpy, Faiss
 
 [^1]: https://huggingface.co/microsoft/deberta-v3-large
 [^2]: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
