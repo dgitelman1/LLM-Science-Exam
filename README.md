@@ -23,4 +23,4 @@ Python, PyTorch, Hugging Face, Pandas, Numpy, Faiss
 [^1]: https://huggingface.co/microsoft/deberta-v3-large
 [^2]: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 [^3]: https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1
-[^4]: Notebook in repository not trained with context due to memory limitations, however this is needed for context to improve performance.
+[^4]: Notebook in repository not trained with context due to memory limitations, however this is needed for context to improve model performance.
