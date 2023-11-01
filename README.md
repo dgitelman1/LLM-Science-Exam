@@ -1,6 +1,6 @@
 # LLM-Science-Exam
 
-Completed training and inference notebooks. Fine-tuned deberta-v3-large [^1] on complex chatgpt3.5 generated multiple choice questions related to scientific topics to investigate whether small language models can effectively answer questions made by much larger models. Embedded prompts and Wikipedia content using sentence-transformers [^2][^3] to find excerpts likely to contain related information to prompts using Facebook AI Similarity Search. Performed inference to generate predictions for unseen questions generated in the same method.
+Completed training and inference notebooks. Fine-tuned deberta-v3-large [^1] on complex chatgpt3.5 generated multiple choice questions related to scientific topics to investigate whether small language models can effectively answer questions made by much larger models. Embedded prompts and Wikipedia content using sentence-transformers [^2][^3] to find excerpts likely to contain related information to prompts using Facebook AI Similarity Search [^4]. Performed inference to generate predictions for unseen questions generated in the same method.
 
 ## Example Question:
 Which of the following statements accurately describes the impact of Modified Newtonian Dynamics (MOND) on the observed "missing baryonic mass" discrepancy in galaxy clusters?
@@ -23,3 +23,4 @@ Python, PyTorch, Hugging Face, Pandas, Numpy, Faiss
 [^1]: https://huggingface.co/microsoft/deberta-v3-large
 [^2]: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 [^3]: https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1
+[^4]: Notebook in repository not trained with context due to memory limitations, however this is needed for context to improve performance.
